@@ -1,6 +1,5 @@
 def caesar_cipher(string, shift)
-
-  alphabet_downcase = "abcdefghijklmnopqrstuvwxyz"
+  alphabet_downcase = 'abcdefghijklmnopqrstuvwxyz'
   alphabet_upcase = alphabet_downcase.upcase
 
   string.each_char do |char|
@@ -21,12 +20,10 @@ def caesar_cipher(string, shift)
     else
       print char
     end
-
   end
 
   print "\n"
-
 end
 
-caesar_cipher("What a string!", 5)
-puts "a".codepoints
+caesar_cipher('What a string!', 5)
+puts 'a'.codepoints
